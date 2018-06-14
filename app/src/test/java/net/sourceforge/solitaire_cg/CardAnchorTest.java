@@ -402,6 +402,9 @@ public class CardAnchorTest {
 
     @Test
     public void canDropCard() throws Exception {
+        MoveCard card = new MoveCard();
+        boolean actual = anchor.CanDropCard(card, 1);
+        assertEquals(false, actual);
     }
 
     @Test
@@ -410,10 +413,15 @@ public class CardAnchorTest {
 
     @Test
     public void grabCard() throws Exception {
+        assertEquals(null,anchor.GrabCard(1,1));
     }
 
     @Test
     public void popCard() throws Exception {
+        Card card = new Card(2,2);
+        anchor.AddCard(card);
+        Card actual = anchor.PopCard();
+        assertEquals(card, actual);
     }
 
     @Test
