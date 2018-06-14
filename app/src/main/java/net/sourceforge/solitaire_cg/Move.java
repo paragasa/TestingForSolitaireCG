@@ -18,15 +18,15 @@
 package net.sourceforge.solitaire_cg;
 
 public class Move {
-  private int mFrom;
-  private int mToBegin;
-  private int mToEnd;
-  private int mCount;
-  private int mFlags;
+  public int mFrom;
+  public int mToBegin;
+  public int mToEnd;
+  public int mCount;
+  public int mFlags;
 
-  private static final int FLAGS_INVERT = 0x0001;
-  private static final int FLAGS_UNHIDE = 0x0002;
-  private static final int FLAGS_ADD_DEAL_COUNT = 0x0004;
+  public static final int FLAGS_INVERT = 0x0001;
+  public static final int FLAGS_UNHIDE = 0x0002;
+  public static final int FLAGS_ADD_DEAL_COUNT = 0x0004;
 
   public Move() {
     mFrom = -1;

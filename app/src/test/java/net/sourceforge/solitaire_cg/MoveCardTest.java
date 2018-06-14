@@ -103,21 +103,21 @@ public class MoveCardTest {
         assertEquals(expected.GetY(), actual.GetY(),0.01);
     }
 
-    @Test
-    public void dumpCards() throws Exception {
-    }
+//    @Test
+//    public void dumpCards() throws Exception {
+//    }
 
-    @Test
-    public void dumpCards1() throws Exception {
-    }
-
-    @Test
-    public void initFromSelectCard() throws Exception {
-    }
-
-    @Test
-    public void initFromAnchor() throws Exception {
-    }
+//    @Test
+//    public void dumpCards1() throws Exception {
+//    }
+//
+//    @Test
+//    public void initFromSelectCard() throws Exception {
+//    }
+//
+//    @Test
+//    public void initFromAnchor() throws Exception {
+//    }
 
     @Test
     public void hasMoved() throws Exception {

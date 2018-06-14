@@ -33,7 +33,8 @@ class CardAnchor {
   public static final int GOLF_STACK = 8;
   public static final int GENERIC_ANCHOR = 9;
 
-  private int mNumber;
+  //private
+  protected int mNumber;
   protected Rules mRules;
   protected float mX;
   protected float mY;
