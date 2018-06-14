@@ -21,22 +21,22 @@ import android.graphics.Canvas;
 
 class SelectCard {
 
-  private static final int MAX_CARDS = 13;
+  public static final int MAX_CARDS = 13;
 
-  private boolean mValid;
-  private int mSelected;
-  private Card[] mCard;
-  private int mCardCount;
-  private CardAnchor mCardAnchor;
-  private float mLeftEdge;
-  private float mRightEdge;
+  public boolean mValid;
+  public int mSelected;
+  public Card[] mCard;
+  public int mCardCount;
+  public CardAnchor mCardAnchor;
+  public float mLeftEdge;
+  public float mRightEdge;
 
   public SelectCard() {
     mCard = new Card[MAX_CARDS];
     Clear();
   }
 
-  private void Clear() {
+  public void Clear() {
     mValid = false;
     mSelected = -1;
     mCardCount = 0;
